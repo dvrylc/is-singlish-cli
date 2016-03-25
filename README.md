@@ -6,7 +6,7 @@
 
 ## Install
 ```
-npm install --global is-singlish-cli
+$ npm install --global is-singlish-cli
 ```
 
 ## Usage
