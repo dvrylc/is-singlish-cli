@@ -1,0 +1,37 @@
+{
+  "name": "is-singlish-cli",
+  "version": "0.1.0",
+  "description": "Check whether a string contains Singlish phrases",
+  "main": "cli.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvrylc/is-singlish-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "check",
+    "contains",
+    "singlish"
+  ],
+  "author": "Daryl Chan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dvrylc/is-singlish-cli/issues"
+  },
+  "homepage": "https://github.com/dvrylc/is-singlish-cli#readme",
+  "dependencies": {
+    "is-singlish": "^1.0.0",
+    "log-symbols": "^1.0.2",
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "^0.13.0",
+    "execa": "^0.2.2"
+  },
+  "ava": {
+    "verbose": true
+  }
+}
