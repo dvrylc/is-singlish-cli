@@ -1,8 +1,8 @@
 'use strict';
 
-var meow = require('meow');
-var logSymbols = require('log-symbols');
-var isSinglish = require('is-singlish');
+const meow = require('meow');
+const logSymbols = require('log-symbols');
+const isSinglish = require('is-singlish');
 
 const cli = meow(`
   Usage
